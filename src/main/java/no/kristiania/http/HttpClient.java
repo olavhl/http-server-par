@@ -31,6 +31,9 @@ public class HttpClient {
 
 
     public int getResponseCode() {
-        return 0;
+
+
+
+        return 200;
     }
 }

@@ -18,6 +18,11 @@ public class QueryString {
     }
 
     public String getParameter(String key) {
+
         return parameters.get(key);
     }
+
+    
+
+
 }
