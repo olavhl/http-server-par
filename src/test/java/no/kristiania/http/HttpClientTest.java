@@ -14,8 +14,8 @@ public class HttpClientTest {
     }
 
     @Test
-    void shouldReturn404StatusCode() throws IOException {
-        HttpClient httpClient = new HttpClient("urlecho.appspot.com", 80, "/echo?status=200");
-        assertEquals(404, httpClient.getResponseCode());
+    void shouldReturn401StatusCode() throws IOException {
+        HttpClient httpClient = new HttpClient("urlecho.appspot.com", 80, "/echo?status=401");
+        assertEquals(401, httpClient.getResponseCode());
     }
 }
