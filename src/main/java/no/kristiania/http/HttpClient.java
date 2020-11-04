@@ -34,4 +34,7 @@ public class HttpClient {
        new HttpClient(hostname, port, requestTarget);
     }
 
+    public int getResponseCode() {
+        return 0;
+    }
 }
